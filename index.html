@@ -1,0 +1,521 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+    <head>
+    <!-- Lòt meta tags... -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"></head>
+    <meta name="HandheldFriendly" content="true">
+    <meta name="MobileOptimized" content="width">
+
+    <title>KRIFA - Kri Fanm Ayiti</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <!-- Navigation -->
+   <nav class="navbar" id="navbar">
+    <div class="nav-container">
+        <div class="nav-logo">
+
+            
+            <img src="foto.jpg" alt="Logo KRIFA" class="logo-image">
+            <!-- <div class="logo-img">KRIFA</div> --> <!-- À supprimer -->
+        </div>
+        
+            
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link" data-translate="nav-home">Accueil</a></li>
+                <li><a href="#news" class="nav-link" data-translate="nav-news">Actualités</a></li>
+                <li><a href="#contact" class="nav-link" data-translate="nav-contact">Contact</a></li>
+                <li><a href="#gallery" class="nav-link">Galeries</a></li>
+                <li><a href="#activities" class="nav-link">Activités</a></li>
+                <li><a href="#about" class="nav-link" data-translate="nav-about">À Propos</a></li>
+                <li><a href="#services" class="nav-link" data-translate="nav-services">Services</a></li>
+            </ul>
+            
+            <div class="language-selector">
+                <div class="language-dropdown">
+                    <button class="language-btn" id="currentLang">
+                        🇫🇷 FR
+                    </button>
+                    <div class="language-options" id="languageOptions">
+                        <button class="lang-option" data-lang="fr">🇫🇷 Français</button>
+                        <button class="lang-option" data-lang="ht">🇭🇹 Kreyòl</button>
+                        <button class="lang-option" data-lang="en">🇺🇸 English</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home" style="background-image: url('foto.jpg');">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+        <h1 class="hero-title animate-fade-in">KRI FANM AYITI</h1>
+        <h2 class="hero-subtitle animate-slide-up">
+            <span class="desktop-only">Kri Fanm Ayiti</span>
+            <span class="mobile-only">FANM AYITI</span>
+        </h2>
+        <p class="hero-slogan animate-slide-up-delay">Pou Fanm ak Timoun ka viv pi byen</p>
+        <p class="hero-description animate-slide-up-delay-2">
+            Défendre les droits des femmes et des enfants pour<br class="desktop-only"> 
+            une société plus équitable en Haïti
+        </p>
+        <div class="hero-buttons animate-bounce-in">
+            <a href="#news" class="btn btn-primary">DÉCOUVRIR</a>
+            <a href="#contact" class="btn btn-secondary">SOUTENIR</a>
+        </div>
+    </div>
+</section>
+
+    <!-- À Propos Section -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-translate="about-title">À Propos de KRIFA</h2>
+                <p class="section-subtitle" data-translate="about-subtitle">Une organisation engagée pour les droits des femmes et des enfants</p>
+            </div>
+            
+            <div class="about-grid">
+                <div class="about-content">
+                    <div class="about-card animate-slide-bounce animate-morph">
+                        <div style="font-size: 2.5rem; color: #8702ff; margin-bottom: 1rem;">📚</div>
+                        <h3 data-translate="about-history-title">Notre Histoire</h3>
+                        <p data-translate="about-history-text">
+                            Fondée le 9 octobre 2016 dans la commune de Carrefour par un groupe de citoyennes haïtiennes, 
+                            KRIFA est née d'un désir urgent de répondre aux multiples difficultés auxquelles sont confrontées 
+                            les femmes et les filles dans la société haïtienne.
+                        </p>
+                    </div>
+                    
+                    <div class="about-card animate-slide-bounce animate-morph" style="animation-delay: 0.3s;">
+                        <div style="font-size: 2.5rem; color: #ffaf02; margin-bottom: 1rem;">🎯</div>
+                        <h3 data-translate="about-vision-title">Notre Vision</h3>
+                        <p data-translate="about-vision-text">
+                            Promouvoir une culture fondée sur le respect des droits des femmes pour créer un environnement 
+                            protecteur et sécurisant.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="about-stats">
+                    <div class="stat-card animate-pulse-3d">
+                        <div style="font-size: 2rem; color: #8702ff; margin-bottom: 0.5rem;">⏰</div>
+                        <span class="stat-number animate-count-up" data-target="8">8</span>
+                        <span class="stat-label">Années d'expérience</span>
+                    </div>
+                    
+                    <div class="stat-card animate-pulse-3d" style="animation-delay: 0.2s;">
+                        <div style="font-size: 2rem; color: #ffaf02; margin-bottom: 0.5rem;">👩</div>
+                        <span class="stat-number animate-count-up" data-target="500">500</span>
+                        <span class="stat-label">Femmes aidées</span>
+                    </div>
+                    
+                    
+                    <div class="stat-card animate-pulse-3d" style="animation-delay: 0.4s;">
+                        <div style="font-size: 2rem; color: #8702ff; margin-bottom: 0.5rem;">🧸</div>
+                        <span class="stat-number animate-count-up" data-target="200">200</span>
+                        <span class="stat-label">Enfants protégés</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Valeurs Section -->
+    <section class="values-section" id="values">
+        <div class="container">
+            <h3 data-translate="about-values-title">Nos Valeurs</h3>
+            <div class="values-grid">
+                <div class="value-item animate-float-3d">
+                    <div style="font-size: 3.5rem; color: #ffaf02; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">💝</div>
+                    <span>Solidarité</span>
+                </div>
+                <div class="value-item animate-float-3d" style="animation-delay: 0.2s;">
+                    <div style="font-size: 3.5rem; color: #8702ff; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">🛡️</div>
+                    <span>Protection</span>
+                </div>
+                <div class="value-item animate-float-3d" style="animation-delay: 0.4s;">
+                    <div style="font-size: 3.5rem; color: #ffaf02; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">⚖️</div>
+                    <span>Égalité</span>
+                </div>
+                <div class="value-item animate-float-3d" style="animation-delay: 0.6s;">
+                    <div style="font-size: 3.5rem; color: #8702ff; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">⚖️</div>
+                    <span>Justice</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services-section" id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-translate="services-title">Nos Services</h2>
+                <p class="section-subtitle" data-translate="services-subtitle">Une assistance complète pour les femmes et les enfants</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card animate-zoom-in">
+                    <div class="service-icon">
+                        <div style="font-size: 2.5rem; text-shadow: 1px 1px 2px rgba(0,0,0,0.3);">⚖️</div>
+                    </div>
+                    <h3 data-translate="service-legal">Assistance Juridique</h3>
+                    <p data-translate="service-legal-desc">
+                        Accompagnement juridique et judiciaire pour défendre les droits des femmes et des enfants
+                    </p>
+                </div>
+                
+                <div class="service-card animate-zoom-in-delay">
+                    <div class="service-icon">
+                        <div style="font-size: 2.5rem; text-shadow: 1px 1px 2px rgba(0,0,0,0.3);">💜</div>
+                    </div>
+                    <h3 data-translate="service-gbv">Prise en charge VBG</h3>
+                    <p data-translate="service-gbv-desc">
+                        Soutien spécialisé pour les survivantes de violences basées sur le genre
+                    </p>
+                </div>
+                
+                <div class="service-card animate-zoom-in-delay-2">
+                    <div class="service-icon">
+                        <div style="font-size: 2.5rem; text-shadow: 1px 1px 2px rgba(0,0,0,0.3);">🤝</div>
+                    </div>
+                    <h3 data-translate="service-psycho">Soutien Psychosocial</h3>
+                    <p data-translate="service-psycho-desc">
+                        Accompagnement psychologique et social pour la réhabilitation des victimes
+                    </p>
+                </div>
+                
+                <div class="service-card animate-zoom-in-delay-3">
+                    <div class="service-icon">
+                        <div style="font-size: 2.5rem; text-shadow: 1px 1px 2px rgba(0,0,0,0.3);">🎓</div>
+                    </div>
+                    <h3 data-translate="service-training">Formations</h3>
+                    <p data-translate="service-training-desc">
+                        Programmes de formation et sensibilisation sur les droits des femmes
+                    </p>
+                </div>
+                
+                <div class="service-card animate-zoom-in-delay-4">
+                    <div class="service-icon">
+                        <div style="font-size: 2.5rem; text-shadow: 1px 1px 2px rgba(0,0,0,0.3);">🌟</div>
+                    </div>
+                    <h3 data-translate="service-reintegration">Réinsertion Sociale</h3>
+                    <p data-translate="service-reintegration-desc">
+                        Accompagnement pour la réintégration sociale et professionnelle
+                    </p>
+                </div>
+                
+                <div class="service-card animate-zoom-in-delay-5">
+                    <div class="service-icon">
+                        <div style="font-size: 2.5rem; text-shadow: 1px 1px 2px rgba(0,0,0,0.3);">📢</div>
+                    </div>
+                    <h3 data-translate="service-advocacy">Plaidoyer</h3>
+                    <p data-translate="service-advocacy-desc">
+                        Actions de plaidoyer pour l'amélioration des politiques publiques
+                    </p>
+                </div>
+                
+                <div class="service-card animate-zoom-in-delay-6">
+                    <div class="service-icon">
+                        <div style="font-size: 2.5rem; text-shadow: 1px 1px 2px rgba(0,0,0,0.3);">👶</div>
+                    </div>
+                    <h3>Protection de l'Enfance</h3>
+                    <p>
+                        Services spécialisés pour la protection des enfants contre toutes formes de violence et d'exploitation
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Actualités Section -->
+    <section class="news-section" id="news">
+        <div class="container">
+            <div class="news-hero">
+                <h2 data-translate="news-title">Actualités</h2>
+                <p>Suivez nos dernières actions et événements pour les droits des femmes et des enfants</p>
+            </div>
+            
+            <div class="news-grid">
+                <div class="news-card animate-slide-up">
+                    <div class="news-card-image">
+                        <div style="font-size: 4rem; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">📚</div>
+                    </div>
+                    <div class="news-card-content">
+                        <div class="news-card-date">15 Janvier 2025</div>
+                        <h3>Formation sur les droits des femmes</h3>
+                        <p>KRIFA organise une série de formations pour sensibiliser les femmes sur leurs droits fondamentaux et les moyens de les faire respecter.</p>
+                        <div class="news-card-author">Par l'équipe KRIFA</div>
+                    </div>
+                </div>
+                
+                <div class="news-card animate-slide-up-delay">
+                    <div class="news-card-image">
+                        <div style="font-size: 4rem; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">🛡️</div>
+                    </div>
+                    <div class="news-card-content">
+                        <div class="news-card-date">10 Janvier 2025</div>
+                        <h3>Campagne de protection de l'enfance</h3>
+                        <p>Lancement de notre nouvelle campagne de sensibilisation sur la protection des enfants contre toutes formes de violence.</p>
+                        <div class="news-card-author">Par l'équipe KRIFA</div>
+                    </div>
+                </div>
+                
+                <div class="news-card animate-slide-up-delay-2">
+                    <div class="news-card-image">
+                        <div style="font-size: 4rem; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">🏛️</div>
+                    </div>
+                    <div class="news-card-content">
+                        <div class="news-card-date">5 Janvier 2025</div>
+                        <h3>Assemblée générale annuelle</h3>
+                        <p>Retour sur notre assemblée générale 2024 et présentation des objectifs pour l'année 2025 dans la défense des droits des femmes.</p>
+                        <div class="news-card-author">Par l'équipe KRIFA</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galeries Section -->
+    <section class="gallery-section" id="gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Galeries</h2>
+                <p class="section-subtitle">Découvrez nos actions en images et vidéos</p>
+            </div>
+            
+            <div class="gallery-tabs">
+                <button class="gallery-tab active">Photos</button>
+                <button class="gallery-tab">Vidéos</button>
+                <button class="gallery-tab">Événements</button>
+            </div>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item animate-zoom-in">
+                    <div style="font-size: 3rem; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">📸</div>
+                </div>
+                <div class="gallery-item animate-zoom-in-delay">
+                    <div style="font-size: 3rem; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">🎬</div>
+                </div>
+                <div class="gallery-item animate-zoom-in-delay-2">
+                    <div style="font-size: 3rem; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">🎭</div>
+                </div>
+                <div class="gallery-item animate-zoom-in-delay-3">
+                    <div style="font-size: 3rem; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">👨‍👩‍👧‍👦</div>
+                </div>
+                <div class="gallery-item animate-zoom-in-delay-4">
+                    <div style="font-size: 3rem; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">🌟</div>
+                </div>
+                <div class="gallery-item animate-zoom-in-delay-5">
+                    <div style="font-size: 3rem; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">🏆</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission Section -->
+    <section class="mission-section" id="mission">
+        <div class="container">
+            <div class="section-header">
+                <div style="font-size: 4rem; margin-bottom: 1rem;">🎯</div>
+                <h2 class="section-title" data-translate="about-mission-title">Notre Mission</h2>
+                <p class="section-subtitle">KRIFA mobilise des ressources pour fournir une assistance sociale et judiciaire</p>
+            </div>
+            
+            <div class="mission-content">
+                <p data-translate="about-mission-text">
+                    KRIFA a pour mission de mobiliser des ressources financières, humaines et matérielles afin de 
+                    fournir aux femmes et aux filles victimes de violations de leurs droits une assistance sociale et judiciaire.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact rapide Section -->
+    <section class="quick-contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-translate="contact-title">Contactez-Nous</h2>
+                <p class="section-subtitle" data-translate="contact-subtitle">Nous sommes là pour vous aider</p>
+            </div>
+            
+            <div class="contact-cards">
+                <div class="contact-card animate-slide-up">
+                    <div style="font-size: 4rem; color: #ffaf02; margin-bottom: 1rem; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">📱</div>
+                    <h3 data-translate="contact-phone">Téléphones</h3>
+                    <p><a href="tel:+50937161434">2945-0040</a></p>
+                    <p><a href="tel:+50936161434">3616-1434</a></p>
+                </div>
+                
+                <div class="contact-card animate-slide-up-delay">
+                    <div style="font-size: 4rem; color: #8702ff; margin-bottom: 1rem; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">📧</div>
+                    <h3 data-translate="contact-email">Email</h3>
+                    <p><a href="mailto:krifanmayiti@gmail.com">krifanmayiti@gmail.com</a></p>
+                </div>
+                
+                <div class="contact-card animate-slide-up-delay-2">
+                    <div style="font-size: 4rem; color: #ffaf02; margin-bottom: 1rem; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">🏢</div>
+                    <h3 data-translate="contact-address">Adresse</h3>
+                    <p>Carrefour, Haïti</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulaire de Don Section -->
+    <section class="donation-section" id="donate">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-translate="donation-title">Soutenez Notre Mission</h2>
+                <p class="section-subtitle" data-translate="donation-subtitle">
+                    Votre soutien fait la différence dans la vie des femmes et des enfants
+                </p>
+            </div>
+            
+            <div class="donation-content">
+                <div class="donation-info">
+                    <h3 data-translate="donation-why">Pourquoi Faire un Don ?</h3>
+                    <ul>
+                        <li>
+                            <div style="font-size: 1.2rem;">🛡️</div>
+                            <span>Protéger les femmes et enfants vulnérables</span>
+                        </li>
+                        <li>
+                            <div style="font-size: 1.2rem;">❤️</div>
+                            <span>Offrir un soutien psychosocial</span>
+                        </li>
+                        <li>
+                            <div style="font-size: 1.2rem;">👥</div>
+                            <span>Former et sensibiliser les communautés</span>
+                        </li>
+                        <li>
+                            <div style="font-size: 1.2rem;">🏆</div>
+                            <span>Promouvoir l'égalité des droits</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="donation-form-container">
+                    <form class="donation-form" id="donationForm">
+                        <h3 data-translate="donation-form-title">Formulaire de Don</h3>
+                        
+                        <div class="form-group">
+                            <label for="nom">Nom complet *</label>
+                            <input type="text" id="nom" name="nom" required />
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required />
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="telephone">Téléphone</label>
+                            <input type="tel" id="telephone" name="telephone" />
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="montant" data-translate="donation-amount">Montant du don (USD) *</label>
+                            <input type="number" id="montant" name="montant" min="1" required />
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="frequence" data-translate="donation-frequency">Fréquence *</label>
+                            <select id="frequence" name="frequence" required>
+                                <option value="">Choisir...</option>
+                                <option value="unique">Don unique</option>
+                                <option value="mensuel">Mensuel</option>
+                                <option value="trimestriel">Trimestriel</option>
+                                <option value="annuel">Annuel</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message (optionnel)</label>
+                            <textarea id="message" name="message" rows="4"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary" data-translate="donation-submit">
+                            ❤️ Faire un Don
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                 <div class="footer-logo">
+                <img src="foto.jpg" alt="Logo KRIFA" class="logo-image">
+                <span>KRIFA</span>
+            </div>
+                    <p>Kri Fanm Ayiti - Pou Fanm ak Timoun ka viv pi byen</p>
+                    <p>Défendre les droits des femmes et des enfants pour une société plus équitable en Haïti.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Liens Rapides</h4>
+                    <ul>
+                        <li><a href="#home">Accueil</a></li>
+                        <li><a href="#news">Actualités</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#gallery">Galeries</a></li>
+                        <li><a href="#activities">Activités</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Assistance Juridique</a></li>
+                        <li><a href="#services">Soutien Psychosocial</a></li>
+                        <li><a href="#services">Protection de l'Enfance</a></li>
+                        <li><a href="#services">Formations</a></li>
+                        <li><a href="#services">Plaidoyer</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 data-translate="contact-follow">Suivez-nous</h4>
+                  <div class="social-icons">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                    </div>
+                    
+                    <div class="footer-contact-extra">
+                        <p>📞 2945-0040</p>
+                        <p>📞 3616-1434</p>
+                        <p>✉️ krifanmayiti@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 KRIFA - Kri Fanm Ayiti. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop">⬆️</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
